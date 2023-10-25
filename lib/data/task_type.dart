@@ -1,5 +1,6 @@
 import 'package:hive_flutter/adapters.dart';
-import 'type_enum.dart';
+import 'package:todos_app/data/type_enum.dart';
+
 
 part 'task_type.g.dart';
 

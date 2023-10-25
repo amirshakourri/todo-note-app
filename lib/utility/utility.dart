@@ -1,5 +1,5 @@
-import 'package:todos_app/screen/task_type.dart';
-import 'package:todos_app/screen/type_enum.dart';
+import '../data/task_type.dart';
+import '../data/type_enum.dart';
 
 List<TaskType> getTaskTpyeList() {
   var list = [

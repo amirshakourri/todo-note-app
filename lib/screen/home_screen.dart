@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:todos_app/screen/add_task_screen.dart';
-import 'package:todos_app/screen/task.dart';
-import 'package:todos_app/screen/task_widget.dart';
+
+import '../data/task.dart';
+import '../widget/task_widget.dart';
 
 class HomeScreenPage extends StatefulWidget {
   HomeScreenPage({super.key});

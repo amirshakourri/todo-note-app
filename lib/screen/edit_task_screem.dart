@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:time_pickerr/time_pickerr.dart';
-import 'package:todos_app/screen/task.dart';
+import '../data/task.dart';
+import '../data/task_type.dart';
+import '../utility/utility.dart';
 import 'home_screen.dart';
-import 'task_type.dart';
-import 'utility.dart';
+
 
 class EditTaskScreen extends StatefulWidget {
   EditTaskScreen({required this.task, super.key});

@@ -1,5 +1,5 @@
 import "package:hive/hive.dart";
-import "package:todos_app/screen/task_type.dart";
+import "package:todos_app/data/task_type.dart";
 
 part 'task.g.dart';
 
